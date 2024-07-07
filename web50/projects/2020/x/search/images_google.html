@@ -18,22 +18,46 @@
         <main>
             <nav class="nav_bar">
                 <a href="index.html">Search</a>
-                <a href="advance_google.html">Advance Search</a>
+                <a href="advance_google.html">Advanced Search</a>
             </nav>
             <div class="">
                 <div class="center google_logo">
-                    <img src="googlelogo_color_272x92dp.png" alt="">
+                    <img src="Google_Images_2015_logo.svg.png" alt="Google Images Icon" width="272px">
                 </div>
                 <div class="center search_bar">
-                    <form action="https://www.google.com/imghp">
-                    <input class="text_input" type="text" name="q"  >
-                </div>
-                <div class="btns center">
-                    <input class="input_btns" type="submit" value="Google Search">
-                    <input class="input_btns" name="btnI" type="submit" value="I'm Feeling Lucky">
-                </div>
+                    <!-- need to add /search? or it won't work 05/06/2024 -->
+                    <form action="https://www.google.com/search?">
+                    <!-- -------------------------------------------- -->
+                        <input class="text_input" type="text" name="q">
+                        <input type="hidden" name="udm" value="2">
+
+                    <!-- -------------------------------------------- -->
+                    <!-- <input type="hidden" name="tbm" value="isch"> -->
+                    <!-- this doesn't show in Canada so I don't know how anyone is suppose to find bit of html -->
+                    <!-- -------------------------------------------- -->
+                    <!-- So in Canada google images is at: https://www.google.com/imghp?hl=en&ogbl  -->
+
+                    <!-- If you search for harvard this is the url you get: https://www.google.com/search?q=harvard sca_esv=f8e0b8e673c5569f hl=en source=hp biw=1153 bih=823 ei=GYyIZteKGNKc0PEPuK-w2Ag iflsig=AL9hbdgAAAAAZoiaKZuxRaGmae4P8QEMeOWdQqm0R2SI ved=0ahUKEwiX-_ndkJGHAxVSDjQIHbgXDIsQ4dUDCAc uact=5 oq=harvard gs_lp=EgNpbWciB2hhcnZhcmQyCBAAGIAEGLEDMggQABiABBixAzILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESIIeUPQKWJcQcAB4AJABAJgBQKABggOqAQE3uAEDyAEA-AEBigILZ3dzLXdpei1pbWeYAgegApcDqAIAmAMCkgcBN6AH9iE sclient=img udm=2 -->
+
+                    <!-- If you search for yale this is the url you get: https://www.google.com/search?q=yale sca_esv=f8e0b8e673c5569f hl=en source=hp biw=1153 bih=823 ei=fIyIZqT3HbzR0PEPx-6gkAc iflsig=AL9hbdgAAAAAZoiajCPcLx2R8J0m-Nbnp9G4cSrwY3nI ved=0ahUKEwikpZqNkZGHAxW8KDQIHUc3CHIQ4dUDCAc uact=5 oq=yale gs_lp=EgNpbWciBHlhbGUyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNAbUMoJWLwMcAB4AJABAJgBOKAB2gGqAQE0uAEDyAEA-AEBigILZ3dzLXdpei1pbWeYAgSgAuUBqAIAmAMBkgcBNKAHvRE sclient=img udm=2 -->
+
+                    <!-- <input type="hidden" name="sclient" value="img"> -->
+                    <!-- <input type="hidden" name="hl" value="en"> -->
+                    <!-- <input type="hidden" name="source" value="hp"> -->
+                    <!-- <input type="hidden" name="biw" value="1153"> -->
+                    <!-- <input type="hidden" name="bih" value="823"> -->
+                    <!-- <input type="hidden" name="uact" value="5"> -->
+                    <!-- <input type="hidden" name="oq" value="harvard"> -->
+                    <!-- <input type="hidden" name="oq" value="yale"> -->
+                    <!-- ^^^^^ these input doesn't work either ^^^^^ -->
+
+                    <!-- ---------------------------------------------- -->
+                        <div class="center">
+                            <input class="input_btns" type="submit" value="Google Search">
+                        </div>
+                    </form>
+                </div>                                
             </div>
-        </form>
         </main>
         <footer>
 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Search</title>
+        <meta name="description" content="">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href=reset.css>
+        <link rel="stylesheet" href=styles.css>
+    </head>
+    <body>
+        <!--[if lt IE 7]> <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p><![endif]-->
+        <main>
+            <nav class="nav_bar">
+                <a href="index.html">Search</a>
+                <a href="images_google.html">Images</a>
+            </nav>
+            <div class="center google_logo">
+                <img src="googlelogo_color_272x92dp.png" alt="">
+            </div>
+            <div class="center">
+                <form action="https://www.google.ca/search?" >
+                    <!-- https://www.google.ca/search?as_q=harvard&as_epq=yale&as_oq=mit&as_eq=fbi&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=-->
+                    <div class="col2">
+                        <div class="adv_google_text">
+                            <p>all these words:</p>
+                        </div>
+                        <div class="">
+                            <input class="adv_google_input" type="text" name="as_q" placeholder="harvard" value="harvard">
+                        </div>
+                    </div>
+                    <div class="col2 marT20">
+                        <div class="adv_google_text">
+                            <p>this exact word or phase:</p>
+                        </div>
+                        <div class="">
+                            <input class="adv_google_input" type="text" name="as_epq" placeholder="yale" value="yale">
+                        </div>
+                    </div>
+                    <div class="col2 marT20">
+                        <div class="adv_google_text">
+                            <p>any of these words:</p>
+                        </div>
+                        <div class="">
+                            <input class="adv_google_input" type="text" name="as_oq" placeholder="mit" value="mit">
+                        </div>
+                    </div>
+                    <div class="col2 marT20">
+                        <div class="adv_google_text">
+                            <p>none of these words:</p>
+                        </div>
+                        <div class="">
+                            <input class="adv_google_input" type="text" name="as_eq" placeholder="fbi" value="fbi">
+                        </div>
+                    </div>
+                    <div class="center marT20">
+                        <input class="input_btns_advance" type="submit" value="Advance Search">
+                    </div>
+                </form>
+            </div>        
+        </main>
+        <footer>
+
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>

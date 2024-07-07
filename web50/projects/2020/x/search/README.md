@@ -1,3 +1,11 @@
+This what CS50W wanted done on 7th of July 2024
+
+I had some issues with Google Image search. Maybe it is because Google changed things or maybe it is the fact I am in Canada.
+Either way I found 2 solutions. The first solution was <input type="hidden" name="tbm" value="isch"> which didn't show in my url. And then through trial and error I figured out that <input type="hidden" name="udm" value="2">
+
+
+
+*******************************************************************************************************
 Recall from lecture that we can create an HTML form using a <form> tag and can add <input> tags to create input fields for that form. Later in the course, we’ll see how to write web applications that can accept form data as input. For this project, we’ll write forms that send data to an existing web server: in this case, Google’s.
 
 When you perform a Google search, as by typing in a query into Google’s homepage and clicking the “Google Search” button, how does that query work? Let’s try to find out.
