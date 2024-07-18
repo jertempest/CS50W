@@ -1,4 +1,4 @@
-This what CS50W wanted done on 7th of July 2024
+This is the project as of July 2024
 
 I had some issues with Google Image search. Maybe it is because Google changed things or maybe it is the fact I am in Canada.
 Either way I found 2 solutions. The first solution was <input type="hidden" name="tbm" value="isch"> which didn't show in my url. And then through trial and error I figured out that <input type="hidden" name="udm" value="2">
